@@ -1,4 +1,4 @@
-package com.example.shopease
+package com.example.shopease.categories
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
