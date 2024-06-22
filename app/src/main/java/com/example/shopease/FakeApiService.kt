@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface FakeApiService {
     @GET(Constants.CATEGORIES_END_POINT)
-    fun fetchCategories(): Call<List<String?>?>?
+    suspend fun fetchCategories(): List<String>
 }
