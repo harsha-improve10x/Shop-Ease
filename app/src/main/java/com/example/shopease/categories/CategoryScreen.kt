@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun CategoryScreen() {
+fun CategoryScreen(category: Category) {
 
 }
 
@@ -21,13 +21,11 @@ fun ActionButton(title: String) {
     }
 }
 
-@Preview
 @Composable
-fun ButtonsList() {
-    val categories = listOf("electronics", "jewelery", "men's clothing", "women's clothing")
+fun ButtonsList(categories: List<Category>) {
     Column(modifier = Modifier.fillMaxSize()) {
         categories.forEach { category ->
-            ActionButton(title = category)
+            ActionButton(title = category.toString())
         }
     }
 }
