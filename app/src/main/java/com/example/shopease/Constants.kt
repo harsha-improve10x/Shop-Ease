@@ -1,12 +1,12 @@
 package com.example.shopease
 
-class Constants {
+object Constants {
 
-    val BASE_URL: String = "https://fakestoreapi.com/"
+    const val BASE_URL: String = "https://fakestoreapi.com/"
 
-    val CATEGORIES_END_POINT: String = "/products/categories"
+    const val CATEGORIES_END_POINT: String = "/products/categories"
 
-    val KEY_CATEGORY_VALUE: String = "category"
+    const val KEY_CATEGORY_VALUE: String = "category"
 
-    val KEY_PRODUCT_VALUE: String = "products"
+    const val KEY_PRODUCT_VALUE: String = "products"
 }
