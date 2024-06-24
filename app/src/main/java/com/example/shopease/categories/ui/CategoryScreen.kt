@@ -1,4 +1,4 @@
-package com.example.shopease.categories
+package com.example.shopease.categories.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -16,8 +16,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.shopease.CategoryRepository
-import com.example.shopease.CategoryViewModel
+import com.example.shopease.categories.viewmodel.CategoryViewModel
 
 @Composable
 fun CategoryScreen(categoryViewModel: CategoryViewModel) {

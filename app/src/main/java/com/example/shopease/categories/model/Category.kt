@@ -1,4 +1,4 @@
-package com.example.shopease.categories
+package com.example.shopease.categories.model
 
 data class Category(
     val id: Int,

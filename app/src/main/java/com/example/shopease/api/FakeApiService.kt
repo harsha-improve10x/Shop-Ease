@@ -1,5 +1,6 @@
-package com.example.shopease
+package com.example.shopease.api
 
+import com.example.shopease.Constants
 import com.example.shopease.products.Product
 import retrofit2.http.GET
 import retrofit2.http.Path

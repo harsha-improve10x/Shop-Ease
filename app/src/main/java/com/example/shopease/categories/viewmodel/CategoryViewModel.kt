@@ -1,11 +1,11 @@
-package com.example.shopease
+package com.example.shopease.categories.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.shopease.categories.repo.CategoryRepository
 import kotlinx.coroutines.launch
-import perfetto.protos.UiState
 
 class CategoryViewModel(private val repository: CategoryRepository) : ViewModel() {
     private val _uiState = MutableLiveData<List<String>>()

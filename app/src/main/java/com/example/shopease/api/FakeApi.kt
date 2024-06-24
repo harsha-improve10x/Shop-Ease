@@ -1,5 +1,6 @@
-package com.example.shopease
+package com.example.shopease.api
 
+import com.example.shopease.Constants
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
